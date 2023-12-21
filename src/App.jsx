@@ -11,7 +11,6 @@ import Footer from './components/Footer.jsx';
 
 
 import FitnessLevels from './components/FitnessLevels.jsx';
-
 import Testimonials from './components/Testimonials.jsx';
 import Contact from './components/Contact.jsx';
 
@@ -29,7 +28,6 @@ const App = () => {
     < Testimonials />
     < Contact />
     <Footer />
-    
     </Box>
   )
 }

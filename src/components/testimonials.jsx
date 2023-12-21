@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Card, CardContent, Container } from '@mui/material';
+import { Box, Typography, Container } from '@mui/material';
 
 const Testimonials = () => {
   const testimonialsData = [
