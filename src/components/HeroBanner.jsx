@@ -11,22 +11,14 @@ const HeroBanner = () => {
         mt: { lg: '212px', xs: '70px'},
         ml: { sm: '50px'}
     }} position="relative" p='20px'>
-        <Typography color = "black" fontWeight ="600" fontWeight="46px">
+        <Typography color = "white" fontWeight ="600" fontWeight="46px" fontFamily="Michroma, sans-serif">
             FITNESS APP
         </Typography>
-        <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px'}}} mb="23px" mt="30px">
-            MOVEMENT  <br /> FOR YOU
+        <Typography color = "white" fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px'}}} mb="23px" mt="30px" fontFamily="Michroma, sans-serif">
+            FUNCTIONAL <br/> MOVEMENTS
         </Typography>
-        <Typography fontSize="22px" lineHeight="35px" mb={3}>
-            A PERSONALIZED WORKOUT EXPERIENCE
-        </Typography>
-        <Button  >EXPLORE NOW</Button>
-        <Typography fontWeight={600}
-        color="black"
-        sx={{ opacity: 0.1, 
-        display: 'block', xs: 'none'}}
-        fontSize="180px" >
-            PERCH STUDIO
+        <Typography color = "white" fontWeight ="600" fontWeight="46px" mb={3} fontFamily="Michroma, sans-serif">
+            START NOW
         </Typography>
         <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
     </Box>

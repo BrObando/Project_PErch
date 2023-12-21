@@ -25,7 +25,7 @@ const BodyPart = ({item, bodyPart, setBodyPart}) => {
       }}
 >
         <img src={Icon} alt ="dumbell" style={{ width: '40px', height: '40px'}} />
-        <Typography fontSize="24px" fontWeight="bold" fontFamily="Alegreya" color="black" textTransform="capitalize">{item}</Typography>
+        <Typography fontSize="24px" fontWeight="bold"  color="white" textTransform="capitalize">{item}</Typography>
     </Stack>
     
   )

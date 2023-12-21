@@ -4,11 +4,14 @@ import {Box} from '@mui/material';
 
 import './App.css';
 
-import ExcerciseDetail from './pages/ExcerciseDetail.jsx';
+
 import Home from './pages/Home.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import FitnessLevels from './components/FitnessLevels.jsx';
+
+import Testimonials from './components/Testimonials.jsx';
+import Contact from './components/Contact.jsx'
 
 
 
@@ -19,11 +22,10 @@ const App = () => {
       <Navbar/>
     <Routes>
       < Route path ="/" element={<Home />}/>
-      < Route path ="/excercise/:id" element={<ExcerciseDetail />}/>
     </Routes>
     < FitnessLevels />
-    <p>Testimonials</p>
-    <p>Contact</p>
+    < Testimonials />
+    < Contact />
     <Footer />
     
     </Box>

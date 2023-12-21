@@ -1,6 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
 body {
-    font-family: 'Josefin Sans';
-    background-color: #b37950;
+    /* font-family: 'Josefin Sans'; */
+    font-family: 'Michroma', sans-serif;
+    background-color: #060D0C;
   }
   
   * {
@@ -9,38 +14,17 @@ body {
     box-sizing: border-box;
   
   }
+  p {
+    color: white;
+  }
   
   ::-webkit-scrollbar {
     width: 0px;
   }
   
-  .right,
-  .left {
-    cursor: pointer;
-    background: transparent;
-    outline: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FF2625;
-    font-size: 25px;
-    border-radius: 4px;
-    position: absolute;
-    bottom: -20px;
-    right: 80px;
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
-  }
+
   
-  .right {
-    right: 140px;
-  }
-  
-  .right:hover,
-  .left:hover {
-    transform: scale(1.3, 1.3);
-  }
+ 
   
   .react-horizontal-scrolling-menu--wrapper {
     width: 100%;
@@ -66,9 +50,8 @@ body {
   .exercise-card {
     width: 400px;
     height: 445px;
-    background: #fff;
-    border-top: 4px solid #FF2625;
-    border-bottom-left-radius: 20px;
+    background: #060D0C;
+    border: 4px solid black;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -97,14 +80,7 @@ body {
     border: 1px solid #FF2625 !important;
   }
   
-  .exercise-video {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 387px;
-    height: 381px;
-    text-decoration: none;
-  }
+
   
   @media screen and (max-width:1200px) {
     .detail-image {
@@ -117,10 +93,7 @@ body {
       width: 500px;
     }
   
-    .left,
-    .right{
-      position: static !important;
-    }
+    
   
     .hero-banner-img {
       display: none;
@@ -130,11 +103,7 @@ body {
       width: 320px;
     }
   
-    .exercise-video {
-      width: 320px;
-      height: 300px;
-    }
-  
+   
   }
   
   @media screen and (max-width:400px) {
