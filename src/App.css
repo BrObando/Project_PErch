@@ -3,7 +3,6 @@
 
 
 body {
-    /* font-family: 'Josefin Sans'; */
     font-family: 'Michroma', sans-serif;
     background-color: #060D0C;
   }
@@ -23,14 +22,11 @@ body {
   }
   
 
-  
- 
-  
-  .react-horizontal-scrolling-menu--wrapper {
+  /* .react-horizontal-scrolling-menu--wrapper {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
   
   .detail-image {
     width: 729px;
@@ -76,8 +72,8 @@ body {
   }
   
   .search-btn:hover {
-    color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    color: blue !important;
+    border: 2px solid blue !important;
   }
   
 
@@ -100,7 +96,7 @@ body {
     }
   
     .exercise-card {
-      width: 320px;
+      width: 300px;
     }
   
    
