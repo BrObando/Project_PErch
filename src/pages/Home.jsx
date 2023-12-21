@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 
 import 'intersection-observer';
 import Exercises from '../components/Exercises.jsx';
-import HeroBanner from '../components/Herobanner.jsx';
+import HeroBanner from '../components/HeroBanner.jsx';
 import SearchExercises from '../components/SearchExercises.jsx';
 const Home = () => {
   const [exercises, setExercises] = useState([]);
