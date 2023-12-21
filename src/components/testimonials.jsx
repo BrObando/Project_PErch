@@ -27,7 +27,7 @@ const Testimonials = () => {
 
   return (
     <Container  mt={5}>
-       <Typography variant="h3" mb="40px" fontFamily="Michroma, sans-serif" color="white" mb="73px" mt="30px" style={{ textAlign: 'center' }}>TESTIMONIALS</Typography>
+       <Typography variant="h3" mb="40px" fontFamily="Michroma, sans-serif" color="white" mt="30px" style={{ textAlign: 'center' }}>TESTIMONIALS</Typography>
       <Box display="flex" justifyContent="center">
         <Box width="30%" p={3} m={2} border="1px solid #ddd" borderRadius="8px">
           <p>"This fitness app has been a total game-changer for me! With its diverse workouts, 
