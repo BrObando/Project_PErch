@@ -29,7 +29,7 @@ const Exercises = ({exercises, setExercises, bodyPart}) => {
   return (
     <Box id ="exercises"
     sx={{mt: { lg: '110px'}}} mt="50px" p="20px">
-      <Typography variant="h3" mb="40px" fontFamily="Michroma, sans-serif" color="white" mb="73px" mt="30px" style={{ textAlign: 'center' }}>WORKOUT RESULTS</Typography>
+      <Typography variant="h3" mb="40px" fontFamily="Michroma, sans-serif" color="white"  mt="30px" style={{ textAlign: 'center' }}>WORKOUT RESULTS</Typography>
       <Stack  direction="row" sx={{ gap: { lg: '107px', xs: '50px' } }} flexWrap="wrap" justifyContent="center" >
          {Array.isArray(exercises) &&exercises.map((exercise, idx) => (
         <Card key={idx} exercise={exercise} />
