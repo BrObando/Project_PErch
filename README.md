@@ -1,5 +1,10 @@
 # PERCH STUDIO
 
+Perch Studio isn't just an app; it's a community committed to your well-being. Here, we believe that knowledge is the key to sustainable fitness, and our informational workouts are crafted to empower you every step of the way.
+
+Embark on a fitness adventure with our collection of informational workouts and tutorials. Whether you're a beginner or a seasoned pro, our curated content is designed to empower you with knowledge, techniques, and motivation.
+
+Step-by-Step Tutorials: Don't just follow, understand. Our step-by-step tutorials break down exercises, ensuring proper form and technique. It's like having a personal trainer in your pocket!
 
 ![](./src/assets/images/logosc.png)
 
